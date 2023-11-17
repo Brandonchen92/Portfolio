@@ -1,0 +1,104 @@
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+    
+}
+
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Biography Section Styles */
+#biography {
+    border: 2px solid #008080;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    background-color: #ff6600;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* Section Styles */
+section {
+    margin: 20px;
+    
+}
+
+/* Image Section Styles */
+#images {
+    margin: 20px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}
+
+
+/* Links Section Styles */
+#links a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 3px 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 20%;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+}
+
+th, td {
+    padding: 10px;
+    
+}
+
+/* Contact Information Styles */
+#contact {
+    font-weight: bold;
+    
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
